@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+header{
+    background-color: #deb09b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+.ul-header{
+    display: flex;
+}
+
+.a-nav{
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px;
+}
+
+main{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+main h1{
+    color:#9f684e;
+}
+
+main img{
+    width: 80%;
+    border-radius: 12px;
+}
+
+.img-services{
+    width: 40%;
+}
+
+main article h2{
+    color:#9f684e;
+}
+
+main section article h3{
+    font-style: italic;
+}
+
+form{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 5%;
+}
+
+form label{
+    text-align: left;
+    font-weight: bold;
+}
+
+button{
+    width: 50%;
+    margin: 1% auto;
+}
+
+.ul-services{
+    list-style: inside;
+}
+
+.img-portfolio{
+    width: 60%;
+    margin: auto;
+}
+
+.a-portofolio{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.h3-portfolio{
+    color: #9f684e;
+}
+
+footer{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #deb09b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    margin-left: 10px;
+}
+
+footer a img{
+    width: 35px;
+    font-size: 15px;
+}
+
+
