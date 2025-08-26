@@ -9,14 +9,25 @@
     background-color: #fff;
 }
 
+.logo{
+    width: 150%;
+}
+
 .button-menu{
+    background-color: #fff;
+    margin-right: 4%;
     border: none;
     text-decoration: none;
     animation: none;
 }
 
+.burger{
+    width: 170%;
+}
+
 .link{
     color: #4E549F;
+    font-weight: bold;
 }
 
 .carousel-indicators{
@@ -32,11 +43,14 @@
 }
 
 .h1-home{
+    
     width: 90%;
     font-size: 20px;
     text-align: center;
     color: #4E549F;
     margin: auto;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 .section-home{
@@ -66,13 +80,12 @@ main article h2{
 
 main section article h3{
     font-style: italic;
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
 }
 
 article ul li{
-    font-size: 10px;
-    text-align: left;
+    font-size: 12px;
 }
 
 form{
