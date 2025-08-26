@@ -10,7 +10,7 @@
 }
 
 .logo{
-    width: 150%;
+    width: 200%;
 }
 
 .button-menu{
@@ -22,7 +22,8 @@
 }
 
 .burger{
-    width: 170%;
+    width: 200%;
+    background-color: #fff;
 }
 
 .link{
@@ -43,7 +44,6 @@
 }
 
 .h1-home{
-    
     width: 90%;
     font-size: 20px;
     text-align: center;
