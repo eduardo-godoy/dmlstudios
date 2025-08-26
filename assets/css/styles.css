@@ -5,20 +5,173 @@
     font-family: "Raleway", sans-serif;
 }
 
-header{
-    background-color: #deb09b;
+.header{
+    background-color: #4E549F;
+}
+
+.mobile{
+    display: none;
+}
+
+footer{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #4E549F;
     display: flex;
-    justify-content: center;
-    align-items: center;
     justify-content: space-between;
 }
 
-.logo{
-    width: 50px;
+.p-footer{
+        margin: auto 0px auto 5px;
+}
+
+footer a img{
+    width: 35px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .img-banner{
     height: auto;
 }
 
-.ul-header{
+p{
+    color:#4E549F;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .ul-header{
     display: flex;
 }
 
@@ -93,26 +246,6 @@ button{
 
 .h3-portfolio{
     color: #9f684e;
-}
-
-footer{
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: bold;
-    font-style: italic;
-    background-color: #deb09b;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer p{
-    margin-left: 10px;
-}
-
-footer a img{
-    width: 35px;
-    font-size: 15px;
-}
+} */
 
 
