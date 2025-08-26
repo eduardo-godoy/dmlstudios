@@ -7,8 +7,10 @@
   <title>DML Studios</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 
@@ -20,7 +22,7 @@
         <a class="navbar-brand" href="./index.html">
           <img src="./assets/images/logo 40 x 40.svg" alt="logo" class="logo" />
         </a>
-        <button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler button-menu" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"  aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -36,39 +38,48 @@
   </header>
 
   <main>
+    <!-- Carrusel -->
     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-      <div class="carousel-indicators"> <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
-          aria-label="Slide 1"></button> <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
-          aria-label="Slide 2" class="active" aria-current="true"></button> <button type="button"
-          data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button> </div>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active"
+          aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
       <div class="carousel-inner">
-        <div class="carousel-item"> <img src="./assets/images/banner-home.jpg" class="img-banner" aria-hidden="true"
+        <div class="carousel-item">
+          <img src="./assets/images/banner-home.jpg" class="img-banner-mobile" aria-hidden="true"
+            class="bd-placeholder-img" preserveAspectRatio="xMidYMid slice" width="100%">
+          <img src="./assets/images/banner 1440x .jpg" class="img-banner-desktop" aria-hidden="true"
             class="bd-placeholder-img" preserveAspectRatio="xMidYMid slice" width="100%">
           <div class="container mobile">
             <div class="carousel-caption text-start">
-              <p class="opacity-75">Creamos experiencias digitales personalizadas para
-                profesionales, emprendedores y negocios que quieren crecer:
-                sitios web, identidad de marca y comunicación estratégica.</p>
+              <p class="opacity-75">Creamos experiencias digitales personalizadas para profesionales, emprendedores y
+                negocios que quieren crecer: sitios web, identidad de marca y comunicación estratégica.</p>
               <p><a class="btn btn-lg btn-primary" href="./pages/services.html">Servicios</a></p>
             </div>
           </div>
         </div>
-        <div class="carousel-item active"><img src="./assets/images/banner 1440x .jpg" class="img-banner"
-            aria-hidden="true" class="bd-placeholder-img" preserveAspectRatio="xMidYMid slice" width="100%">
+        <div class="carousel-item active">
+          <img src="./assets/images/banner-home.jpg" class="img-banner-mobile" aria-hidden="true"
+            class="bd-placeholder-img" preserveAspectRatio="xMidYMid slice" width="100%">
+          <img src="./assets/images/banner 1440x .jpg" class="img-banner-desktop" aria-hidden="true"
+            class="bd-placeholder-img" preserveAspectRatio="xMidYMid slice" width="100%">
           <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-          
           <div class="container mobile">
             <div class="carousel-caption">
-              <p>Combinamos comunicación estratégica, diseño UX/UI y desarrollo web
-                para que tu marca no solo se vea bien, funcione bien y sea única.</p>
+              <p>Combinamos comunicación estratégica, diseño UX/UI y desarrollo web para que tu marca no solo se vea
+                bien, funcione bien y sea única.</p>
               <p><a class="btn btn-lg btn-primary" href="#">Portfolio</a></p>
             </div>
           </div>
         </div>
-        <div class="carousel-item"> <img src="./assets/images/banner 1440x .jpg" class="img-banner" aria-hidden="true"
+        <div class="carousel-item">
+          <img src="./assets/images/banner-home.jpg" class="img-banner-mobile" aria-hidden="true"
+            class="bd-placeholder-img" preserveAspectRatio="xMidYMid slice" width="100%">
+          <img src="./assets/images/banner 1440x .jpg" class="img-banner-desktop" aria-hidden="true"
             class="bd-placeholder-img" preserveAspectRatio="xMidYMid slice" width="100%">
           <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-          
           <div class="container mobile">
             <div class="carousel-caption text-end">
               <p>Some representative placeholder content for the third slide of this carousel.</p>
@@ -76,13 +87,91 @@
             </div>
           </div>
         </div>
-      </div> <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
-          class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button"
-        data-bs-target="#myCarousel" data-bs-slide="next"> <span class="carousel-control-next-icon"
-          aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <h1>¿Qué podemos hacer por tu proyecto?</h1>
+    <!-- Fin Carrusel -->
+    <h1 class="h1-home">¿Qué podemos hacer por tu proyecto?</h1>
+    <section class="section-home">
+      <article class="article-home">
+        <img src="../assets/images/img-service-1.jpg" alt="img-services-1" class="img-services">
+        <h2>PACK BÁSICO - Web Presencia</h2>
+        <h3>Ideal para profesionales o emprendedores que quieren mostrar lo que hacen.</h3>
+        <ul class="ul-services">
+          <li>Sitio 100% responsive (hasta 4 secciones)</li>
+          <li>Home + Nosotros + Servicios + Contacto</li>
+          <li>Redacción clara y orientada al usuario</li>
+          <li>Formulario de contacto + enlace a WhatsApp</li>
+          <li>Entrega estimada: 7-10 días hábiles</li>
+          <li>Precio: $300.000</li>
+        </ul>
+      </article>
+      <article class="article-home">
+        <img src="../assets/images/img-service-2.jpg" alt="img-services-2" class="img-services">
+        <h2>PACK INTERACTIVO - Web + Sistema de Turnos</h2>
+        <h3>Ideal para consultorios, estéticas, salones o restaurantes.</h3>
+        <ul class="ul-services">
+          <li>Todo lo del pack básico +</li>
+          <li>Sistema de reservas online (con o sin pago)</li>
+          <li>Calendario editable para turnos</li>
+          <li>Panel editable simple para el cliente</li>
+          <li>Entrega estimada: 15-20 días hábiles</li>
+          <li>Precio: $600.000</li>
+        </ul>
+      </article>
+      <article class="article-home">
+        <img src="../assets/images/img-service-3.jpg" alt="img-services-3" class="img-services">
+        <h2>PACK PROFESIONAL - Marca + Web + Copy</h2>
+        <h3>Ideal para negocios nuevos o marcas que quieren rearmarse con identidad.</h3>
+        <ul class="ul-services">
+          <li>Estrategia de comunicación y tono de voz</li>
+          <li>Diseño UX/UI a medida en Figma</li>
+          <li>Contenido redactado desde cero con enfoque de marketing</li>
+          <li>Web 100% funcional hasta 5 secciones</li>
+          <li>Entrega estimada: 15-20 días hábiles</li>
+          <li>Precio: $800.000</li>
+        </ul>
+      </article>
+      <article class="article-home">
+        <img src="../assets/images/img-service-4.jpg" alt="img-services-4" class="img-services">
+        <h2>MANTENIMIENTO MENSUAL (opcional)</h2>
+        <h3>Te acompañamos para que tu web siga funcionando como el primer día.</h3>
+        <ul class="ul-services">
+          <li>Soporte técnico y correcciones</li>
+          <li>Cambios menores en contenido (hasta 2 por mes)</li>
+          <li>Backups y chequeo de funcionamiento</li>
+          <li>Precio: $30.000 - $50.000 </li>
+        </ul>
+      </article>
+      <article class="article-home">
+        <img src="../assets/images/img-service-5.jpg" alt="img-services-5" class="img-services">
+        <h2>REDISEÑO DE SITIO EXISTENTE</h2>
+        <h3>Ideal si ya tenés una web pero sentís que no te representa.</h3>
+        <ul class="ul-services">
+          <li>Auditoría visual + funcional</li>
+          <li>Propuesta de mejora UX/UI y textual</li>
+          <li>Optimizada para celular</li>
+          <li>Consultar presupuesto</li>
+        </ul>
+      </article>
+      <article class="article-home">
+        <img src="../assets/images/img-service-6.jpg" alt="img-services-6" class="img-services">
+        <h2>MEJORA DE BRANDING + VOZ DE MARCA</h2>
+        <h3>Ideal para subir de nivel y reposicionarte más profesional.</h3>
+        <ul class="ul-services">
+          <li>Definición de identidad y tono</li>
+          <li>Rediseño de portadas / paleta / estilo visual</li>
+          <li>Mini manual de estilo opcional</li>
+          <li>Consultar presupuesto</li>
+        </ul>
+      </article>
+    </section>
   </main>
 
   <footer>
@@ -93,7 +182,10 @@
       <a href="#"><img src="./assets/images/facebook.svg" alt="facebook" /></a>
     </section>
   </footer>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

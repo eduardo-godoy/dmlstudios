@@ -6,209 +6,73 @@
 }
 
 .header{
-    background-color: #4E549F;
+    background-color: #fff;
+}
+
+.button-menu{
+    border: none;
+    text-decoration: none;
+    animation: none;
+}
+
+.link{
+    color: #4E549F;
+}
+
+.carousel-indicators{
+    display: none;
 }
 
 .mobile{
     display: none;
 }
 
-footer{
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: bold;
-    background-color: #4E549F;
-    display: flex;
-    justify-content: space-between;
+.img-banner-desktop{
+    display: none;
 }
 
-.p-footer{
-        margin: auto 0px auto 5px;
-}
-
-footer a img{
-    width: 35px;
-    font-size: 15px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .img-banner{
-    height: auto;
-}
-
-p{
-    color:#4E549F;
-    text-align: justify;
-}
-
-h1{
+.h1-home{
+    width: 90%;
+    font-size: 20px;
     text-align: center;
-}
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .ul-header{
-    display: flex;
+    color: #4E549F;
+    margin: auto;
 }
 
-.a-nav{
-    text-decoration: none;
-    list-style: none;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: bold;
-    font-style: italic;
-    margin: 10px;
+.section-home{
+    width: 100%;
 }
 
-main{
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
-main h1{
-    color:#9f684e;
-}
-
-main img{
-    width: 80%;
-    border-radius: 12px;
+.article-home{
+    width: 90%;
+    padding: 5%;
+    margin: 5% auto;
+    border: 2px solid #C9B6BE;
+    box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+    -webkit-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+    -moz-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
 }
 
 .img-services{
-    width: 40%;
+    width: 100%;
 }
 
 main article h2{
+    margin-top: 5px;
+    font-size: 15px;
     color:#9f684e;
+    text-align: center;
 }
 
 main section article h3{
     font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+
+article ul li{
+    font-size: 10px;
+    text-align: left;
 }
 
 form{
@@ -222,11 +86,6 @@ form{
 form label{
     text-align: left;
     font-weight: bold;
-}
-
-button{
-    width: 50%;
-    margin: 1% auto;
 }
 
 .ul-services{
@@ -246,6 +105,24 @@ button{
 
 .h3-portfolio{
     color: #9f684e;
-} */
+}
+
+footer{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #4E549F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-footer{
+        margin: auto 0px auto 5px;
+}
+
+footer a img{
+    width: 40px;
+    font-size: 15px;
+}
 
 
