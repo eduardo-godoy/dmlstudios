@@ -179,42 +179,70 @@ form button{
     font-weight: bold;
 }
 
+.h1-portfolio{
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    color: #4E549F;
+    margin-top: 10px;
+}
+
+.h2-portfolio{
+    width: 95%;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    color: #4E549F;
+    margin-top: 10px;
+}
+
+main section article h3{
+    font-style: italic;
+    font-size: 13px;
+    text-align: center;
+}
+
+main section article ul li{
+    font-size: 12px;
+    text-align: left;
+}
+
+.article-portfolio{
+    width: 85%;
+    padding: 5px;
+    margin: 15px auto;
+    border: 2px solid #C9B6BE;
+    border-radius: 5%;
+    box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+    -webkit-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+    -moz-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+}
+
 .ul-services{
     list-style: inside;
 }
 
-.img-portfolio{
-    width: 60%;
-    margin: auto;
-}
-
-.a-portofolio{
+.a-portfolio{
+    width: 100%;
     text-decoration: none;
     color: black;
     font-size: 15px;
 }
 
+.img-portfolio{
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+
 .h3-portfolio{
-    color: #9f684e;
-}
-
-.section-portfolio{
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 0.5fr 10fr 0.5fr; 
-    grid-template-rows: 1fr 1fr; 
-    gap: 20px 120px; 
-    grid-template-areas: 
-    ". article1 ."
-    ". article2 ."; 
-    }
-
-.article-portfolio{
-    grid-area: article1;
-}
-
-.article-portfolio2{
-    grid-area: article2;
+    margin-top: 5px;
+    font-size: 14px;
+    color:#9f684e;
+    text-align: center;
 }
 
 footer{
@@ -330,7 +358,35 @@ footer a img{
         -moz-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
         position: relative;
         bottom: 0;
-        }
+    }
+
+    main section article ul li{
+    font-size: 12px;
+    text-align: left;
+}
+
+.article-portfolio{
+    width: 70%;
+    padding: 5px;
+    margin: 15px auto;
+    border: 2px solid #C9B6BE;
+    border-radius: 5%;
+    box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+    -webkit-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+    -moz-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+}
+
+.ul-services{
+    list-style: inside;
+}
+
+.a-portfolio{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
 
     footer{
         color: #ffffff;
@@ -682,6 +738,8 @@ footer a img{
         margin: auto;
         padding: 10px;
     }
+
+    
 
     footer{
         color: #ffffff;
