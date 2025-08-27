@@ -211,7 +211,7 @@ footer a img{
     .img-services{
         width: 100%;
         padding: 20px;
-        border-radius: 5%;
+        border-radius: 10px;
     }
 
     main article h2{
@@ -247,7 +247,7 @@ footer a img{
         width: 50%;
         text-align: center;
         margin: 20px auto;
-        border-radius: 2%;
+        border-radius: 10px;
         text-decoration: none;
         color: #fff;
         font-weight: bold;
@@ -284,6 +284,11 @@ footer a img{
 
 @media (min-width: 1000px) {
 
+    .header{
+        padding: 0;
+        margin: 0;
+    }
+
     .navbar-expand-lg .navbar-collapse {
         display: flex;
         flex-basis: auto;
@@ -291,7 +296,7 @@ footer a img{
     }
 
     .logo{
-        width: 200%;
+        width: 50px;
     }
 
     .button-menu{
@@ -309,9 +314,28 @@ footer a img{
         display: none;
     }
 
+    .img-banner-mobile{
+        display: none;
+    }
+
+    .img-banner-desktop{
+        display: block;
+        width: 90%;
+        margin: auto;
+        height: 60vh;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .button-banner{
+        display: block;
+    }   
+
     .h1-home{
-        font-size: 35px;
-        margin: 20px auto 10px auto;
+        font-size: 25px;
+        margin: 15px auto;
     }
 
     .section-home{
@@ -329,7 +353,7 @@ footer a img{
     .img-services{
         width: 100%;
         padding: 5px;
-        border-radius: 5%;
+        border-radius: 10px;
     }
 
     main article h2{
@@ -365,17 +389,16 @@ footer a img{
         width: 30%;
         text-align: center;
         margin: 20px auto;
-        border-radius: 4%;
+        border-radius: 10px;
         text-decoration: none;
         color: #fff;
         font-weight: bold;
         padding: 1%;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     footer{
         color: #ffffff;
-        font-size: 15px;
         font-weight: bold;
         background-color: #4E549F;
         display: flex;
@@ -383,14 +406,14 @@ footer a img{
     }
 
     .p-footer-2{
-        font-size: 25px;
+        font-size: 18px;
         margin: auto 10px auto 10px;
         display: block;
     }
 
     .p-footer{
         display: block;
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .section-footer{
@@ -401,7 +424,167 @@ footer a img{
 
     footer a img{
         margin: 10px 0;
-        width: 70px;
+        width: 40px;
+    }    
+}
+
+@media (min-width: 1000px) {
+
+    .header{
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: flex;
+        flex-basis: auto;
+        justify-content: end;
+    }
+
+    .logo{
+        width: 50px;
+    }
+
+    .button-menu{
+        display: none;
+        background-color: #fff;
+        margin-right: 30px;
+        border: none;
+        text-decoration: none;
+        animation: none;
+    }
+
+    .burger{
+        width: 200%;
+        background-color: #fff;
+        display: none;
+    }
+
+    .img-banner-mobile{
+        display: none;
+    }
+
+    .img-banner-desktop{
+        display: block;
+        width: 90%;
+        margin: auto;
+        height: 50vh;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .button-banner{
+        display: block;
+    }
+    
+    .p-banner{
+        color: #060a42;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .p-button-banner{
+        color: #fff;
+        background-color: #4E549F;
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+    }
+
+    .h1-home{
+        font-size: 25px;
+        margin: 15px auto;
+    }
+
+    .section-home{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .article-home{
+        width: 30%;
+        margin: 15px auto;
+    }
+
+    .img-services{
+        width: 100%;
+        padding: 5px;
+        border-radius: 15px;
+    }
+
+    main article h2{
+        margin-top: 5px;
+        font-size: 18px;
+        color:#9f684e;
+        text-align: center;
+    }
+
+    main section article h3{
+        font-style: italic;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    article ul li{
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .h2-index{
+        width: 90%;
+        font-size: 20px;
+        text-align: center;
+        color: #4E549F;
+        margin: auto;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+
+    .p-index{
+        background-color: #4E549F;
+        width: 20%;
+        text-align: center;
+        margin: 20px auto;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        padding: 1%;
+        font-size: 18px;
+    }
+
+    footer{
+        color: #ffffff;
+        font-weight: bold;
+        background-color: #4E549F;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .p-footer-2{
+        font-size: 18px;
+        margin: auto 10px auto 10px;
+        display: block;
+    }
+
+    .p-footer{
+        display: block;
+        font-size: 15px;
+    }
+
+    .section-footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center; 
+    }
+
+    footer a img{
+        margin: 10px 0;
+        width: 40px;
     }    
 }
 
