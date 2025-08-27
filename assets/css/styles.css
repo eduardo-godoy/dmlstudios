@@ -198,6 +198,25 @@ form button{
     color: #9f684e;
 }
 
+.section-portfolio{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 0.5fr 10fr 0.5fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 20px 120px; 
+    grid-template-areas: 
+    ". article1 ."
+    ". article2 ."; 
+    }
+
+.article-portfolio{
+    grid-area: article1;
+}
+
+.article-portfolio2{
+    grid-area: article2;
+}
+
 footer{
     color: #ffffff;
     font-size: 15px;
@@ -484,6 +503,10 @@ footer a img{
         font-size: 18px;
     }
 
+    form{
+        padding: 1%;
+    }
+
     footer{
         color: #ffffff;
         font-weight: bold;
@@ -720,8 +743,8 @@ footer a img{
     .h1-contact{
         width: 70%;
         font-size: 25px;
-        margin: 10px auto;
-        text-align: left;
+        margin: 30px auto;
+        text-align: center;
         color: #4E549F;
         font-weight: bold;
     }
@@ -750,7 +773,7 @@ footer a img{
 
     form{
         width: 30%;
-        margin-left: 15%;
+        margin: auto;
         display: flex;
         flex-direction: column;
         border: 2px solid #C9B6BE;
@@ -758,6 +781,7 @@ footer a img{
         box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
         -webkit-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
         -moz-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+        margin-bottom: 5%;
     }
 
     form label{
