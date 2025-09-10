@@ -1,5 +1,7 @@
 @use "../partials/variables" as*;
 
+/* Mobile  */
+
 .main-porfolio{
     .h1-portfolio{
         width: 90%;
@@ -30,7 +32,7 @@
                 padding: 5px;
                 margin: 15px auto;
                 border: 2px solid $bordoclaro;
-                border-radius: 5%;
+                border-radius: 10px;
                 box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
                 -webkit-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
                 -moz-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);

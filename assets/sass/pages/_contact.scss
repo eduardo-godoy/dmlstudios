@@ -1,5 +1,7 @@
 @use "../partials/variables" as*;
 
+/* Mobile  */
+
 .main-contact{
     .h1-contact{
         width: 90%;
@@ -10,7 +12,12 @@
         color: $violeta;
         margin-top: 10px;
     }
+    .banner-services{
+        width: 100%;
+    }
     form{
+        background: #C9B6BE;
+        background: linear-gradient(0deg,rgba(201, 182, 190, 1) 0%, rgba(255, 255, 255, 1) 65%);
         width: 90%;
         display: flex;
         flex-direction: column;

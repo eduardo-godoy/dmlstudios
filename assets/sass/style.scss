@@ -1,13 +1,18 @@
+/* Partials */
 
 @use "./partials/variables";
 @use "./partials/header";
 @use "./partials/footer";
+
+/* Pages */
 
 @use "./pages/index";
 @use "./pages/services";
 @use "./pages/contact";
 @use "./pages/portfolio";
 @use "./pages/about";
+
+/* Media Queris */
 
 @use "./partials/mediaQ";
 

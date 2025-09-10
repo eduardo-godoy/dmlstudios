@@ -1,6 +1,21 @@
 @use "../partials/variables" as*;
 
+/* Mobile  */
+
 .main-services{
+     @keyframes bannerAnimation {
+        0% {
+            background-color: blue;
+            transform: translateX(0);
+        }
+        50% {
+            background-color: red;
+        }
+        100% {
+            background-color: green;
+            transform: translateX(100px);
+        }
+    }
     .banner-services{
         width: 100%;
     }
@@ -10,6 +25,7 @@
             margin: auto;
         }
     }
+   
 }
 
 
