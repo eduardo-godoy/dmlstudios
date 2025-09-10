@@ -7,7 +7,7 @@
   font-family: "Raleway", sans-serif;
 }
 
-/* ------------------------------------- Inicio Mobile */
+/* Mobile */
 .header {
   background-color: #fff;
 }
@@ -30,20 +30,46 @@
   font-weight: bold;
 }
 
-/* ------------------------------------- Main index  */
-main .carousel-indicators {
+/* Mobile */
+footer {
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #4E549F;
+}
+footer .p-footer-2 {
+  margin: auto 0px auto 5px;
   display: none;
 }
-main .mobile {
+footer .p-footer {
+  margin: auto 0px auto 5px;
   display: none;
 }
-main .button-banner {
+footer .section-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .section-footer a img {
+  margin: 10px 0;
+  width: 50px;
+  font-size: 15px;
+}
+
+/* Mobile  */
+.main-index .carousel-indicators {
   display: none;
 }
-main .img-banner-desktop {
+.main-index .mobile {
   display: none;
 }
-main .h1-home {
+.main-index .button-banner {
+  display: none;
+}
+.main-index .img-banner-desktop {
+  display: none;
+}
+.main-index .h1-home {
   width: 90%;
   font-size: 20px;
   text-align: center;
@@ -52,10 +78,10 @@ main .h1-home {
   margin-top: 15px;
   font-weight: bold;
 }
-main .section-home {
+.main-index .section-home {
   width: 100%;
 }
-main .section-home .article-home {
+.main-index .section-home .article-home {
   width: 90%;
   padding: 5%;
   margin: 5% auto;
@@ -65,24 +91,24 @@ main .section-home .article-home {
   -webkit-box-shadow: 1px 15px 16px -6px rgb(201, 182, 190);
   -moz-box-shadow: 1px 15px 16px -6px rgb(201, 182, 190);
 }
-main .section-home .article-home .img-services {
+.main-index .section-home .article-home .img-services {
   width: 100%;
 }
-main .section-home .article-home h2 {
+.main-index .section-home .article-home h2 {
   margin-top: 5px;
   font-size: 15px;
   color: #9f684e;
   text-align: center;
 }
-main .section-home .article-home h3 {
+.main-index .section-home .article-home h3 {
   font-style: italic;
   font-size: 13px;
   text-align: center;
 }
-main .section-home .article-home ul li {
+.main-index .section-home .article-home ul li {
   font-size: 12px;
 }
-main .h2-index {
+.main-index .h2-index {
   width: 90%;
   font-size: 18px;
   text-align: center;
@@ -91,11 +117,11 @@ main .h2-index {
   margin-top: 15px;
   font-weight: bold;
 }
-main .a-index {
+.main-index .a-index {
   text-decoration: none;
   color: #fff;
 }
-main .a-index .p-index {
+.main-index .a-index .p-index {
   background-color: #4E549F;
   width: 70%;
   text-align: center;
@@ -108,17 +134,15 @@ main .a-index .p-index {
   font-size: 15px;
 }
 
-/* ------------------------------------- Main services  */
-main .banner-services {
+.main-services .banner-services {
   width: 100%;
 }
-main .ul-services li {
+.main-services .ul-services li {
   width: 100%;
   margin: auto;
 }
 
-/* ------------------------------------- Main contact  */
-main .h1-contact {
+.main-contact .h1-contact {
   width: 90%;
   font-size: 18px;
   text-align: center;
@@ -127,7 +151,7 @@ main .h1-contact {
   color: #4E549F;
   margin-top: 10px;
 }
-main form {
+.main-contact form {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -139,23 +163,23 @@ main form {
   -webkit-box-shadow: 1px 15px 16px -6px rgb(201, 182, 190);
   -moz-box-shadow: 1px 15px 16px -6px rgb(201, 182, 190);
 }
-main form label {
+.main-contact form label {
   text-align: left;
   font-weight: bold;
   font-weight: bold;
   color: #4E549F;
   margin: 5px 0;
 }
-main form input {
+.main-contact form input {
   border: 2px solid #C9B6BE;
   border-radius: 5px;
 }
-main form textarea {
+.main-contact form textarea {
   border: 2px solid #C9B6BE;
   border-radius: 5px;
   margin: 0 0 30px 0;
 }
-main form button {
+.main-contact form button {
   background-color: #4E549F;
   border: 2px solid #4E549F;
   border-radius: 5px;
@@ -164,7 +188,6 @@ main form button {
   font-weight: bold;
 }
 
-/* ------------------------------------- Main portfolio  */
 .main-porfolio .h1-portfolio {
   width: 90%;
   font-size: 20px;
@@ -186,7 +209,7 @@ main form button {
 .main-porfolio .section-porfolio .a-portfolio {
   width: 100%;
   text-decoration: none;
-  color: black;
+  color: #0c0303;
   font-size: 15px;
 }
 .main-porfolio .section-porfolio .a-portfolio .article-portfolio {
@@ -215,83 +238,57 @@ main form button {
   text-align: left;
 }
 
-/* ------------------------------------- Footer */
-footer {
-  color: #fff;
-  font-size: 15px;
-  font-weight: bold;
-  background-color: #4E549F;
-}
-footer .p-footer-2 {
-  margin: auto 0px auto 5px;
-  display: none;
-}
-footer .p-footer {
-  margin: auto 0px auto 5px;
-  display: none;
-}
-footer .section-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-footer .section-footer a img {
-  margin: 10px 0;
-  width: 50px;
-  font-size: 15px;
-}
-
 /* ------------------------------------- Inicio Tablet */
 @media (min-width: 760px) {
-  main .carousel-indicators {
+  .main-index .carousel-indicators {
     display: none;
   }
-  main .mobile {
+  .main-index .mobile {
     display: none;
   }
-  main .button-banner {
+  .main-index .button-banner {
     display: none;
   }
-  main .img-banner-desktop {
+  .main-index .img-banner-desktop {
     display: none;
   }
-  main .h1-home {
+  .main-index .h1-home {
     font-size: 25px;
     margin: 15px auto;
   }
-  main .section-home {
+  .main-index .section-home {
     width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  main .section-home .article-home {
+  .main-index .section-home .article-home {
     width: 48%;
     margin: 1% auto;
     padding: 10px;
   }
-  main .section-home .article-home .img-services {
+  .main-index .section-home .article-home .img-services {
     width: 100%;
     padding: 20px;
     border-radius: 10px;
   }
-  main .section-home .article-home h2 {
+  .main-index .section-home .article-home h2 {
     margin-top: 5px;
     font-size: 18px;
     color: #9f684e;
     text-align: center;
   }
-  main .section-home .article-home h3 {
+  .main-index .section-home .article-home h3 {
     font-style: italic;
     font-size: 13px;
     text-align: center;
   }
-  main .section-home .article-home ul li {
+  .main-index .section-home .article-home ul li {
     font-size: 14px;
     text-align: left;
   }
-  main .h2-index {
+  .main-index .h2-index {
     width: 90%;
     font-size: 25px;
     text-align: center;
@@ -300,11 +297,11 @@ footer .section-footer a img {
     margin-top: 15px;
     font-weight: bold;
   }
-  main .a-index {
+  .main-index .a-index {
     text-decoration: none;
     color: #fff;
   }
-  main .a-index .p-index {
+  .main-index .a-index .p-index {
     background-color: #4E549F;
     width: 50%;
     text-align: center;
@@ -315,6 +312,20 @@ footer .section-footer a img {
     font-weight: bold;
     padding: 2%;
     font-size: 18px;
+  }
+  .main-contact form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 120px auto;
+    padding: 5%;
+    border: 2px solid #C9B6BE;
+    border-radius: 10px;
+    box-shadow: 1px 15px 16px -6px rgb(201, 182, 190);
+    -webkit-box-shadow: 1px 15px 16px -6px rgb(201, 182, 190);
+    -moz-box-shadow: 1px 15px 16px -6px rgb(201, 182, 190);
+    position: relative;
+    bottom: 0;
   }
   footer {
     color: #ffffff;
@@ -381,72 +392,72 @@ footer .section-footer a img {
   .header .navbar-expand-lg .navbar-collapse .navbar-nav .nav-link {
     margin: 10px 5px;
   }
-  main .img-banner-mobile {
+  .main-index .img-banner-mobile {
     display: none;
   }
-  main .carousel-indicators {
+  .main-index .carousel-indicators {
     display: none;
   }
-  main .mobile {
+  .main-index .mobile {
     display: block;
   }
-  main .button-banner {
+  .main-index .button-banner {
     display: block;
   }
-  main .p-banner {
+  .main-index .p-banner {
     color: #060a42;
     font-weight: bold;
     font-size: 20px;
   }
-  main .p-button-banner {
+  .main-index .p-button-banner {
     color: #fff;
     background-color: #4E549F;
     font-weight: bold;
     font-size: 20px;
     border: none;
   }
-  main .img-banner-desktop {
+  .main-index .img-banner-desktop {
     display: block;
     width: 90%;
     margin: auto;
     height: 40vh;
     border-radius: 10px;
   }
-  main .h1-home {
+  .main-index .h1-home {
     font-size: 25px;
     margin: 15px auto;
   }
-  main .section-home {
+  .main-index .section-home {
     width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
   }
-  main .section-home .article-home {
+  .main-index .section-home .article-home {
     width: 32%;
     margin: 15px auto;
   }
-  main .section-home .article-home .img-services {
+  .main-index .section-home .article-home .img-services {
     width: 100%;
     padding: 5px;
     border-radius: 10px;
   }
-  main .section-home .article-home h2 {
+  .main-index .section-home .article-home h2 {
     margin-top: 5px;
     font-size: 18px;
     color: #9f684e;
     text-align: center;
   }
-  main .section-home .article-home h3 {
+  .main-index .section-home .article-home h3 {
     font-style: italic;
     font-size: 16px;
     text-align: center;
   }
-  main .section-home .article-home ul li {
+  .main-index .section-home .article-home ul li {
     font-size: 14px;
     text-align: left;
   }
-  main .h2-index {
+  .main-index .h2-index {
     width: 90%;
     font-size: 25px;
     text-align: center;
@@ -455,11 +466,11 @@ footer .section-footer a img {
     margin-top: 15px;
     font-weight: bold;
   }
-  main .a-index {
+  .main-index .a-index {
     text-decoration: none;
     color: #fff;
   }
-  main .a-index .p-index {
+  .main-index .a-index .p-index {
     background-color: #4E549F;
     width: 30%;
     text-align: center;
@@ -470,6 +481,9 @@ footer .section-footer a img {
     font-weight: bold;
     padding: 1%;
     font-size: 18px;
+  }
+  .main-contact form {
+    padding: 1%;
   }
   footer {
     color: #ffffff;
@@ -537,146 +551,92 @@ footer .section-footer a img {
   .header .navbar-expand-lg .navbar-collapse .navbar-nav .nav-link {
     margin: 10px 5px;
   }
-  main .img-banner-mobile {
-    display: none;
+  .main-contact form {
+    width: 50%;
+    margin-bottom: 50px;
   }
-  main .carousel-indicators {
-    display: none;
-  }
-  main .mobile {
-    display: block;
-  }
-  main .button-banner {
-    display: block;
-  }
-  main .p-banner {
-    color: #060a42;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  main .p-button-banner {
-    color: #fff;
-    background-color: #4E549F;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-  }
-  main .img-banner-desktop {
-    display: block;
-    width: 90%;
+  .main-contact form button {
+    width: 30%;
     margin: auto;
-    height: 50vh;
-    border-radius: 10px;
-  }
-  main .h1-home {
-    font-size: 25px;
-    margin: 15px auto;
-  }
-  main .section-home {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  main .section-home .article-home {
-    width: 32%;
-    margin: 15px auto;
-  }
-  main .section-home .article-home .img-services {
-    width: 100%;
-    padding: 5px;
-    border-radius: 10px;
-  }
-  main .section-home .article-home h2 {
-    margin-top: 5px;
-    font-size: 18px;
-    color: #9f684e;
-    text-align: center;
-  }
-  main .section-home .article-home h3 {
-    font-style: italic;
-    font-size: 16px;
-    text-align: center;
-  }
-  main .section-home .article-home ul li {
-    font-size: 14px;
-    text-align: left;
-  }
-  main .h2-index {
-    width: 90%;
-    font-size: 20px;
-    text-align: center;
-    color: #4E549F;
-    margin: auto;
-    margin-top: 15px;
-    font-weight: bold;
-  }
-  main .a-index {
-    text-decoration: none;
-    color: #fff;
-  }
-  main .a-index .p-index {
-    background-color: #4E549F;
-    width: 20%;
-    text-align: center;
-    margin: 20px auto;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    padding: 1%;
-    font-size: 18px;
-  }
-  footer {
-    color: #ffffff;
-    font-weight: bold;
-    background-color: #4E549F;
-    display: flex;
-    justify-content: space-between;
-  }
-  footer .p-footer-2 {
-    font-size: 18px;
-    margin: auto 10px auto 10px;
-    display: block;
-  }
-  footer .p-footer {
-    display: block;
-    font-size: 15px;
-  }
-  footer .section-footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  footer .section-footer img {
-    margin: 10px 0;
-    width: 40px;
+    padding: 10px;
   }
 }
 @media (min-width: 1600px) {
-  main .section-home {
+  .main-index .section-home {
     width: 90%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
   }
-  main .section-home .article-home {
+  .main-index .section-home .article-home {
     width: 30%;
     margin: 15px auto;
   }
+  .main-contact form {
+    width: 50%;
+  }
+  .main-contact form button {
+    width: 20%;
+    padding: 10px;
+  }
 }
 @media (min-width: 1920px) {
-  main .section-home {
+  .main-index .section-home {
     width: 70%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
   }
-  main .section-home .article-home {
+  .main-index .section-home .article-home {
     width: 30%;
     margin: 15px auto;
   }
+  .main-contact {
+    width: 100%;
+  }
+  .main-contact .h1-contact {
+    width: 70%;
+    font-size: 25px;
+    margin: 30px auto;
+    text-align: center;
+    color: #4E549F;
+    font-weight: bold;
+  }
+  .main-contact .banner-services {
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+  }
+  .main-contact form {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #C9B6BE;
+    border-radius: 10px;
+    box-shadow: 1px 15px 16px -6px rgb(201, 182, 190);
+    -webkit-box-shadow: 1px 15px 16px -6px rgb(201, 182, 190);
+    -moz-box-shadow: 1px 15px 16px -6px rgb(201, 182, 190);
+    margin-bottom: 5%;
+  }
+  .main-contact form label {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px;
+  }
+  .main-contact form input {
+    width: 100%;
+    padding: 5px;
+  }
+  .main-contact form button {
+    width: 20%;
+    padding: 10px;
+  }
+  .main-services .banner-services {
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+  }
 }
-/* ------------------------------------- Fin Desktop */
 
 /*# sourceMappingURL=style.css.map */

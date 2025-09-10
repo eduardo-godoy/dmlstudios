@@ -1,0 +1,28 @@
+@use "./variables" as*;
+
+/* Mobile */
+
+.header{
+    background-color: $blanco;
+    .logo{
+        width: 130%;
+    }
+    .button-menu{
+        background-color: $blanco;
+        margin-right: 30px;
+        border: none;
+        text-decoration: none;
+        animation: none;  
+    }
+    .burger{
+            width: 200%;
+            background-color: $blanco;
+        }
+    .link{
+        color: $violeta;
+        font-weight: bold;
+    }
+}
+
+
+

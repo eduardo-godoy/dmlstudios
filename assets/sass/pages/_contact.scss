@@ -1,0 +1,49 @@
+@use "../partials/variables" as*;
+
+.main-contact{
+    .h1-contact{
+        width: 90%;
+        font-size: 18px;
+        text-align: center;
+        margin: auto;
+        font-weight: bold;
+        color: $violeta;
+        margin-top: 10px;
+    }
+    form{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto 100px auto;
+        padding: 5%;
+        border: 2px solid $bordoclaro;
+        border-radius: 10px;
+        box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+        -webkit-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+        -moz-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+        label{
+            text-align: left;
+            font-weight: bold;
+            font-weight: bold;
+            color: $violeta;
+            margin: 5px 0;
+        }
+        input{
+            border: 2px solid $bordoclaro;
+            border-radius: 5px;
+        }
+        textarea{
+            border: 2px solid $bordoclaro;
+            border-radius: 5px;
+            margin: 0 0 30px 0;
+        }
+        button{
+            background-color: $violeta;
+            border: 2px solid $violeta;
+            border-radius: 5px;
+            margin: 0 0 30px 0;
+            color: $blanco;
+            font-weight: bold;
+        }
+    }
+}

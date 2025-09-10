@@ -1,0 +1,17 @@
+/* ------------------------------------- Variables  */
+
+$font: "Raleway", sans-serif;
+$blanco: #fff;
+$violeta: #4E549F;
+$bordo: #9f684e;
+$negro: #0c0303;
+$bordoclaro: #C9B6BE;
+
+/* ------------------------------------- Reglas generales  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font
+}

@@ -1,0 +1,15 @@
+@use "../partials/variables" as*;
+
+.main-services{
+    .banner-services{
+        width: 100%;
+    }
+    .ul-services{
+        li{
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
+
+

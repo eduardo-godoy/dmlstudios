@@ -1,0 +1,57 @@
+@use "../partials/variables" as*;
+
+.main-porfolio{
+    .h1-portfolio{
+        width: 90%;
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        font-weight: bold;
+        color: $violeta;
+        margin-top: 10px;
+    }
+    .h2-portfolio{
+        width: 95%;
+        font-size: 15px;
+        text-align: center;
+        margin: auto;
+        font-weight: bold;
+        color: $violeta;
+        margin-top: 10px;
+    }
+    .section-porfolio{
+        .a-portfolio{
+            width: 100%;
+            text-decoration: none;
+            color: $negro;
+            font-size: 15px;
+            .article-portfolio{
+                width: 85%;
+                padding: 5px;
+                margin: 15px auto;
+                border: 2px solid $bordoclaro;
+                border-radius: 5%;
+                box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+                -webkit-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+                -moz-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+                .img-portfolio{
+                    width: 100%;
+                    margin: auto;
+                    border-radius: 10px;
+                }
+                .h3-portfolio{
+                    margin-top: 5px;
+                    font-size: 15px;
+                    color:$bordo;
+                    text-align: center;
+                }
+                ul{
+                    li{
+                        font-size: 12px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}

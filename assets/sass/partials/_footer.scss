@@ -1,0 +1,30 @@
+@use "./variables" as*;
+
+/* Mobile */
+
+footer{
+    color: $blanco;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: $violeta;
+        .p-footer-2{
+            margin: auto 0px auto 5px;
+            display: none;
+        }
+
+    .p-footer{
+            margin: auto 0px auto 5px;
+            display: none;
+        }
+
+    .section-footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a img{
+            margin: 10px 0;
+            width: 50px;
+            font-size: 15px;
+        }
+    }
+}
