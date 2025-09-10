@@ -477,7 +477,7 @@ footer .section-footer a img {
     margin: 10px 5px;
   }
   .header .navbar-expand-lg .navbar-collapse .navbar-nav .nav-link:hover {
-    background-color: #060a42;
+    color: #060a42;
   }
   .main-index .img-banner-mobile {
     display: none;
@@ -502,6 +502,9 @@ footer .section-footer a img {
     font-weight: bold;
     font-size: 20px;
     border: none;
+  }
+  .main-index .p-button-banner:hover {
+    background-color: #060a42;
   }
   .main-index .img-banner-desktop {
     display: block;
@@ -576,8 +579,15 @@ footer .section-footer a img {
     padding: 1%;
     font-size: 18px;
   }
+  .main-index .a-index .p-index:hover {
+    transition: 1s;
+    background-color: #060a42;
+  }
   .main-contact form {
     padding: 1%;
+  }
+  .main-contact form button:hover {
+    background-color: #060a42;
   }
   .main-porfolio .h1-portfolio {
     width: 90%;
@@ -667,6 +677,11 @@ footer .section-footer a img {
     margin: 10px 0;
     width: 40px;
   }
+  footer .section-footer img:hover {
+    transition: 1s;
+    background-color: #0c0303;
+    border-radius: 50%;
+  }
 }
 /* Inicio Desktop */
 @media (min-width: 1366px) {
@@ -716,6 +731,9 @@ footer .section-footer a img {
     width: 30%;
     margin: auto;
     padding: 10px;
+  }
+  .main-contact form button:hover {
+    background-color: #060a42;
   }
   .main-porfolio .h1-portfolio {
     width: 90%;
@@ -794,6 +812,9 @@ footer .section-footer a img {
   .main-contact form button {
     width: 20%;
     padding: 10px;
+  }
+  .main-contact form button:hover {
+    background-color: #060a42;
   }
   .main-porfolio .h1-portfolio {
     width: 90%;

@@ -222,7 +222,7 @@
                     .nav-link{
                     margin: 10px 5px;
                         &:hover {
-                        background-color: $azul;
+                            color: $azul;
                         }
                     }
                 }
@@ -241,7 +241,7 @@
             display: block;
         }
         .button-banner{
-            display: block;
+            display: block; 
         }
         .p-banner{
             color: $azul;
@@ -254,6 +254,9 @@
             font-weight: bold;
             font-size: 20px;
             border: none;
+            &:hover{
+                background-color: $azul;
+            }
         }
         .img-banner-desktop{
             display: block;
@@ -328,6 +331,10 @@
                 font-weight: bold;
                 padding: 1%;
                 font-size: 18px;
+                &:hover{
+                    transition: 1s;
+                    background-color: $azul;
+                }   
             }
         }
     }
@@ -335,6 +342,11 @@
     .main-contact{
         form{
             padding: 1%;;
+            button{
+                &:hover {
+                    background-color: $azul;
+                }
+            }
         }
     }
 
@@ -428,6 +440,11 @@
             img{
                 margin: 10px 0;
                 width: 40px;
+                &:hover{
+                    transition: 1s;
+                    background-color: $negro;
+                    border-radius: 50%;
+                }  
             }
         }    
     }
@@ -483,6 +500,9 @@
                 width: 30%;
                 margin: auto;
                 padding: 10px;
+                &:hover {
+                    background-color: $azul;
+                }
             }
         }
     }
@@ -572,6 +592,9 @@
             button{
                 width: 20%;
                 padding: 10px;
+                &:hover {
+                    background-color: $azul;
+                }
             }
         }
     }
@@ -665,7 +688,7 @@
             color: $violeta;
             font-weight: bold;
         }
-            .banner-services{
+        .banner-services{
             width: 70%;
             margin-left: 15%;
             border-radius: 10px;
