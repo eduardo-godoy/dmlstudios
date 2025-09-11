@@ -16,3 +16,23 @@ $azul: #060a42;
     box-sizing: border-box;
     font-family: $font
 }
+
+@mixin cards {
+    width: 90%;
+    padding: 5%;
+    margin: 5% auto;
+    border: 2px solid $bordoclaro;
+    border-radius: 10px;
+    box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+    -webkit-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+    -moz-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+}
+
+@mixin imgbanners {
+    width: 100%;
+}
+
+@mixin buttons {
+    
+}
+

@@ -30,7 +30,7 @@
         }
     }
     .banner-services{
-        width: 100%;
+        @include imgbanners;
         animation: bannerServiceAni 5s 1;
     }
     form{

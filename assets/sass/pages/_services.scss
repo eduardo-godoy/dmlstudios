@@ -17,7 +17,7 @@
         }
     }
     .banner-services{
-        width: 100%;
+        @include imgbanners;
     }
     .ul-services{
         li{

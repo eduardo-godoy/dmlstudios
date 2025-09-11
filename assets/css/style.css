@@ -70,6 +70,7 @@ footer .section-footer a img {
 }
 .main-index .img-banner-desktop {
   display: none;
+  width: 100%;
 }
 .main-index .h1-home {
   width: 90%;

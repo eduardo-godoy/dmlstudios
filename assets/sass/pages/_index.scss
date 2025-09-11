@@ -17,6 +17,7 @@
 
     .img-banner-desktop{
         display: none;
+        @include imgbanners;
     }
     .h1-home{
         width: 90%;
@@ -30,18 +31,10 @@
     .section-home{
         width: 100%;
         .article-home{
-        width: 90%;
-        padding: 5%;
-        margin: 5% auto;
-        border: 2px solid $bordoclaro;
-        border-radius: 10px;
-        box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
-        -webkit-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
-        -moz-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
+            @include cards;
             .img-services{
                 width: 100%;
             }
-
             h2{
                 margin-top: 5px;
                 font-size: 15px;
@@ -70,7 +63,6 @@
         margin-top: 15px;
         font-weight: bold;
     }
-
     .a-index{
         text-decoration: none;
         color: $blanco;
