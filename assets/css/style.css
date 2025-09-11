@@ -170,8 +170,26 @@ footer .section-footer a img {
   color: #4E549F;
   margin-top: 10px;
 }
+@keyframes bannerServiceAni {
+  0% {
+    opacity: 0%;
+  }
+  25% {
+    opacity: 25%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  50% {
+    opacity: 75%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 .main-contact .banner-services {
   width: 100%;
+  animation: bannerServiceAni 5s 1;
 }
 .main-contact form {
   background: #C9B6BE;
