@@ -15,21 +15,29 @@
     @keyframes bannerServiceAni {
         0% {
             opacity: 0%;
+            transition: 1s;
         }
         25% {
             opacity: 25%;
+            transition: 1s;
         }
         50% {
             opacity: 50%;
+            transition: 1s;
         }
         50% {
             opacity: 75%;
+            transition: 1s;
         }
         100% {
             opacity: 100%;
+            transition: 1s;
         }
     }
     .banner-services{
+        display: none;
+    }
+    .banner-services-2{
         @include imgbanners;
         animation: bannerServiceAni 5s 1;
     }

@@ -17,6 +17,8 @@ $azul: #060a42;
     font-family: $font
 }
 
+/* Mixing */
+
 @mixin cards {
     width: 90%;
     padding: 5%;
@@ -32,7 +34,4 @@ $azul: #060a42;
     width: 100%;
 }
 
-@mixin buttons {
-    
-}
 

@@ -8,6 +8,7 @@
   font-family: "Raleway", sans-serif;
 }
 
+/* Mixing */
 /* Partials */
 /* Mobile */
 .header .logo {
@@ -174,21 +175,29 @@ footer .section-footer a img {
 @keyframes bannerServiceAni {
   0% {
     opacity: 0%;
+    transition: 1s;
   }
   25% {
     opacity: 25%;
+    transition: 1s;
   }
   50% {
     opacity: 50%;
+    transition: 1s;
   }
   50% {
     opacity: 75%;
+    transition: 1s;
   }
   100% {
     opacity: 100%;
+    transition: 1s;
   }
 }
 .main-contact .banner-services {
+  display: none;
+}
+.main-contact .banner-services-2 {
   width: 100%;
   animation: bannerServiceAni 5s 1;
 }
@@ -511,9 +520,9 @@ footer .section-footer a img {
     display: block;
   }
   .main-index .p-banner {
-    color: #060a42;
+    color: #0c0303;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 14px;
   }
   .main-index .p-button-banner {
     color: #fff;
@@ -527,9 +536,9 @@ footer .section-footer a img {
   }
   .main-index .img-banner-desktop {
     display: block;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    height: 50vh;
+    height: 40vh;
     border-radius: 10px;
   }
   .main-index .h1-home {
@@ -602,8 +611,21 @@ footer .section-footer a img {
     transition: 1s;
     background-color: #060a42;
   }
+  .main-contact .h1-contact {
+    margin-top: 25px;
+  }
+  .main-contact .banner-services {
+    display: block;
+    width: 100%;
+    animation: bannerServiceAni 5s 1;
+  }
+  .main-contact .banner-services-2 {
+    display: none;
+  }
   .main-contact form {
+    width: 50%;
     padding: 1%;
+    margin-top: 25px;
   }
   .main-contact form button:hover {
     background-color: #060a42;
@@ -742,8 +764,15 @@ footer .section-footer a img {
   .header .navbar-expand-lg .navbar-collapse .navbar-nav .nav-link {
     margin: 10px 5px;
   }
+  .main-index .img-banner-desktop {
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 60vh;
+    border-radius: 10px;
+  }
   .main-contact form {
-    width: 50%;
+    width: 35%;
     margin-bottom: 50px;
   }
   .main-contact form button {
@@ -753,6 +782,12 @@ footer .section-footer a img {
   }
   .main-contact form button:hover {
     background-color: #060a42;
+  }
+  .main-contact .banner-services {
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+    margin-bottom: 15px;
   }
   .main-porfolio .h1-portfolio {
     width: 90%;
@@ -825,17 +860,22 @@ footer .section-footer a img {
     width: 30%;
     margin: 15px auto;
   }
-  .main-contact form {
+  .main-contact .banner-services {
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+  }
+  .main-contact .banner-services form {
     width: 50%;
   }
-  .main-contact form button {
+  .main-contact .banner-services form button {
     width: 20%;
     padding: 10px;
   }
-  .main-contact form button:hover {
+  .main-contact .banner-services form button:hover {
     background-color: #060a42;
   }
-  .main-porfolio .h1-portfolio {
+  .main-contact .main-porfolio .h1-portfolio {
     width: 90%;
     font-size: 30px;
     text-align: center;
@@ -844,7 +884,7 @@ footer .section-footer a img {
     color: #4E549F;
     margin-top: 10px;
   }
-  .main-porfolio .h2-portfolio {
+  .main-contact .main-porfolio .h2-portfolio {
     width: 95%;
     font-size: 25px;
     text-align: center;
@@ -853,7 +893,7 @@ footer .section-footer a img {
     color: #4E549F;
     margin-top: 10px;
   }
-  .main-porfolio .section-porfolio {
+  .main-contact .main-porfolio .section-porfolio {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -861,7 +901,7 @@ footer .section-footer a img {
     width: 70%;
     margin: auto;
   }
-  .main-porfolio .section-porfolio .a-portfolio {
+  .main-contact .main-porfolio .section-porfolio .a-portfolio {
     width: 30%;
     text-decoration: none;
     color: #0c0303;
@@ -869,7 +909,7 @@ footer .section-footer a img {
     align-self: center;
     margin: 15px auto;
   }
-  .main-porfolio .section-porfolio .a-portfolio .article-portfolio {
+  .main-contact .main-porfolio .section-porfolio .a-portfolio .article-portfolio {
     width: 100%;
     border: 2px solid #C9B6BE;
     border-radius: 10px;
@@ -877,19 +917,19 @@ footer .section-footer a img {
     -webkit-box-shadow: 1px 15px 16px -6px rgb(201, 182, 190);
     -moz-box-shadow: 1px 15px 16px -6px rgb(201, 182, 190);
   }
-  .main-porfolio .section-porfolio .a-portfolio .article-portfolio .img-portfolio {
+  .main-contact .main-porfolio .section-porfolio .a-portfolio .article-portfolio .img-portfolio {
     width: 100%;
     height: fit-content;
     margin: auto;
     border-radius: 10px;
   }
-  .main-porfolio .section-porfolio .a-portfolio .article-portfolio .h3-portfolio {
+  .main-contact .main-porfolio .section-porfolio .a-portfolio .article-portfolio .h3-portfolio {
     margin-top: 5px;
     font-size: 17px;
     color: #9f684e;
     text-align: center;
   }
-  .main-porfolio .section-porfolio .a-portfolio .article-portfolio ul li {
+  .main-contact .main-porfolio .section-porfolio .a-portfolio .article-portfolio ul li {
     margin: auto;
     font-size: 15px;
     text-align: left;

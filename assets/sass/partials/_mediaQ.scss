@@ -244,9 +244,9 @@
             display: block; 
         }
         .p-banner{
-            color: $azul;
+            color: $negro;
             font-weight: bold;
-            font-size: 20px;
+            font-size: 14px;
         }
         .p-button-banner{
             color: $blanco;
@@ -260,9 +260,9 @@
         }
         .img-banner-desktop{
             display: block;
-            width: 90%;
+            width: 100%;
             margin: auto;
-            height: 50vh;
+            height: 40vh;
             border-radius: 10px;
         }
         .h1-home{
@@ -340,8 +340,21 @@
     }
 
     .main-contact{
+        .h1-contact{
+            margin-top: 25px;
+        }
+        .banner-services{
+            display: block;
+            @include imgbanners;
+            animation: bannerServiceAni 5s 1;
+        }
+        .banner-services-2{
+            display: none;
+        }
         form{
-            padding: 1%;;
+            width: 50%;
+            padding: 1%;
+            margin-top: 25px;
             button{
                 &:hover {
                     background-color: $azul;
@@ -492,9 +505,18 @@
         }
     }
 
+    .main-index{
+        .img-banner-desktop{
+            display: block;
+            width: 90%;
+            margin: auto;
+            height: 60vh;
+            border-radius: 10px;
+        }
+    }    
     .main-contact{
         form{
-            width: 50%;
+            width: 35%;
             margin-bottom: 50px;
             button{
                 width: 30%;
@@ -504,6 +526,12 @@
                     background-color: $azul;
                 }
             }
+        }
+        .banner-services{
+            width: 70%;
+            margin-left: 15%;
+            border-radius: 10px;
+            margin-bottom: 15px;
         }
     }
 
@@ -587,6 +615,10 @@
     }
 
     .main-contact{
+        .banner-services{
+            width: 70%;
+            margin-left: 15%;
+            border-radius: 10px;
         form{
             width: 50%;
             button{
@@ -661,6 +693,7 @@
                 }
             }
         }
+    }
     }
 }
 
