@@ -610,6 +610,14 @@ footer .section-footer a img {
     transition: 1s;
     background-color: #060a42;
   }
+  .main-contact .banner-services {
+    display: block;
+    animation: bannerServiceAni 5s 1;
+    width: 100%;
+  }
+  .main-contact .banner-services-2 {
+    display: none;
+  }
   .main-contact form {
     padding: 1%;
   }
@@ -750,6 +758,15 @@ footer .section-footer a img {
   .header .navbar-expand-lg .navbar-collapse .navbar-nav .nav-link {
     margin: 10px 5px;
   }
+  .main-contact .banner-services {
+    display: block;
+    animation: bannerServiceAni 5s 1;
+    width: 90%;
+    margin: auto;
+  }
+  .main-contact .banner-services-2 {
+    display: none;
+  }
   .main-contact form {
     width: 50%;
     margin-bottom: 50px;
@@ -827,7 +844,7 @@ footer .section-footer a img {
     display: block;
     width: 90%;
     margin: auto;
-    height: 40vh;
+    height: 50vh;
     border-radius: 10px;
   }
   .main-index .section-home {

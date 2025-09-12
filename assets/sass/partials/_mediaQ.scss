@@ -340,6 +340,14 @@
     }
 
     .main-contact{
+        .banner-services{
+            display: block;
+            animation: bannerServiceAni 5s 1;
+            @include imgbanners;
+        }
+        .banner-services-2{
+            display: none;
+        }
         form{
             padding: 1%;;
             button{
@@ -493,6 +501,15 @@
     }
 
     .main-contact{
+         .banner-services{
+            display: block;
+            animation: bannerServiceAni 5s 1;
+            width: 90%;
+            margin: auto;
+            }
+            .banner-services-2{
+            display: none;
+        }
         form{
             width: 50%;
             margin-bottom: 50px;
