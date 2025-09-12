@@ -574,6 +574,13 @@
 
 @media (min-width: 1600px) {
     .main-index{
+        .img-banner-desktop{
+            display: block;
+            width: 90%;
+            margin: auto;
+            height: 40vh;
+            border-radius: 10px;
+        }
         .section-home{
             width: 90%;
             margin: auto;
