@@ -1,10 +1,10 @@
 /* Variables */
 
 $font: "Raleway", sans-serif;
-$blanco: #fff;
+$blanco: #FFFFFF;
 $violeta: #4E549F;
 $bordo: #9f684e;
-$negro: #0c0303;
+$negro: #000000;
 $bordoclaro: #C9B6BE;
 $azul: #060a42;
 
@@ -21,7 +21,7 @@ $azul: #060a42;
     width: 90%;
     padding: 5%;
     margin: 5% auto;
-    border: 2px solid $bordoclaro;
+    border: 2px solid $violeta;
     border-radius: 10px;
     box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);
     -webkit-box-shadow: 1px 15px 16px -6px rgba(201,182,190,1);

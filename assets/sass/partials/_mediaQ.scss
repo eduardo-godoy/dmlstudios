@@ -189,8 +189,6 @@
 @media (min-width: 990px) {
 
     .header{
-        padding: 0;
-        margin: 0;
         .logo{
             width: 50px;
         }
@@ -231,6 +229,7 @@
     }
 
     .main-index{
+        margin-top: 2%;
         .img-banner-mobile{
             display: none;
         }
@@ -244,9 +243,12 @@
             display: block; 
         }
         .p-banner{
-            color: $azul;
+            color: $negro;
             font-weight: bold;
             font-size: 20px;
+        }
+        .container{
+            background-color: $blanco;
         }
         .p-button-banner{
             color: $blanco;
@@ -462,8 +464,6 @@
 
 @media (min-width: 1366px) {
     .header{
-        padding: 0;
-        margin: 0;
         .logo{
             width: 50px;
         }
@@ -496,6 +496,19 @@
                     margin: 10px 5px;
                     }
                 }
+            }
+        }
+    }
+
+    .main-index{
+        .section-home{
+            width: 90%; 
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            .article-home{
+                width: 30%;
+                margin: 15px auto; 
             }
         }
     }

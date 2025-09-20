@@ -3,8 +3,10 @@
 /* Mobile */
 
 .header{
+    height: auto;
+    background-color: $violeta;
     .logo{
-        width: 130%;
+        width: 60%;
     }
     .button-menu{
         background-color: $blanco;
@@ -15,10 +17,10 @@
     }
     .burger{
             width: 200%;
-            background-color: $blanco;
+            background-color: $violeta;
     }
     .link{
-        color: $violeta;
+        color: $blanco;
         font-weight: bold;
     }
 }

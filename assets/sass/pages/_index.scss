@@ -6,15 +6,12 @@
     .carousel-indicators{
         display: none;
     }
-
     .mobile{
         display: none;
     }
-
     .button-banner{
         display: none;
     }
-
     .img-banner-desktop{
         display: none;
         @include imgbanners;
@@ -25,31 +22,51 @@
         text-align: center;
         color: $violeta;
         margin: auto;
-        margin-top: 15px;
+        margin-top:10px;
+        margin-bottom: 0;
         font-weight: bold;
+    }
+    .section-index{
+        background-color: $violeta;
+        margin: 10px 0;
+    }
+    .p-banner-index{
+        color: $blanco;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 15px;
+    }
+    .p-banner-index-2{
+        color: $blanco;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        padding: 0 15px 10px 15px;
     }
     .section-home{
         width: 100%;
         .article-home{
             @include cards;
-            .img-services{
-                width: 100%;
-            }
             h2{
-                margin-top: 5px;
-                font-size: 15px;
-                color:$bordo;
+                color: $violeta;
+                font-weight: bold;
+                font-size: 18px;
                 text-align: center;
                 }
 
             h3{
+                color: $violeta;
                 font-style: italic;
                 font-size: 13px;
                 text-align: center;
             }
             ul{
+                width: 100%;
+                padding: auto;
                 li{
-                    font-size: 12px;
+                    font-size: 13px;
+                    font-weight: 500;
                 }   
             }
         }
@@ -68,7 +85,7 @@
         color: $blanco;
         .p-index{
             background-color: $violeta;
-            width: 70%;
+            width: 60%;
             text-align: center;
             margin: 20px auto;
             border-radius: 10px;
