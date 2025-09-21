@@ -1,1 +1,54 @@
 @use "../partials/variables" as*;
+
+.main-about{
+    border-top: 1px solid $blanco;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    section{
+        color: $blanco;
+        background-color: $violeta;
+        padding: 10px;
+        h1{
+            margin: 10px auto;
+            color: $blanco;
+        }
+        h3{
+            margin: 10px auto;
+            font-size: 15px;
+        }
+        p{
+            align-self: center;
+            background-color:$blanco;
+            color: $violeta;
+            font-weight: bold;
+            padding: 15px;
+            font-size: 12px;
+            border-radius: 10px;
+            width: 80%;
+            margin: 15px auto;
+            flex: 1;
+        }
+    }
+    h4{
+        width: 90%;
+        color: $violeta;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 15px auto 0px auto;
+    }
+    .a-about{
+        color: $blanco;
+        background-color: $violeta;
+        padding: 10px;
+        border-radius: 12px;
+        text-decoration: none;
+        margin: 20px auto;
+        font-weight: bold;
+    }
+}
