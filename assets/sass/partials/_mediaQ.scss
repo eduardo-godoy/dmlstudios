@@ -465,7 +465,7 @@
 @media (min-width: 1366px) {
     .header{
         .logo{
-            width: 50px;
+            width:60%;
         }
         .button-menu{
             display: none;
@@ -501,6 +501,9 @@
     }
 
     .main-index{
+        .img-banner-desktop{
+            height: auto;
+        }
         .section-home{
             width: 90%; 
             display: flex;
@@ -518,13 +521,14 @@
             display: block;
             animation: bannerServiceAni 5s 1;
             width: 90%;
-            margin: auto;
+            margin: 25px auto;
+            border-radius: 10px;
             }
             .banner-services-2{
             display: none;
         }
         form{
-            width: 50%;
+            width: 40%;
             margin-bottom: 50px;
             button{
                 width: 30%;
@@ -596,6 +600,31 @@
                             text-align: left;
                         }
                     }
+                }
+            }
+        }
+    }
+
+    .main-porfolio{
+        .section-porfolio{
+            .a-portfolio{
+                .article-portfolio{
+                    .button-portfolio{
+                    color: $blanco;
+                    background-color: $violeta;
+                    padding: 15px;
+                    width: 30%;
+                    text-align: center;
+                    list-style: none;
+                    text-decoration: none;
+                    border-radius: 10px;
+                    font-weight: bold;
+                    margin: 5px auto 15px auto;
+                    &:hover{
+                        background-color: $azul;
+                    }
+                    }
+                    
                 }
             }
         }
@@ -757,14 +786,6 @@
                     background-color: $azul;
                 }
             }
-        }
-    }
-
-    .main-services{
-        .banner-services{
-            width: 70%;
-            margin-left: 15%;
-            border-radius: 10px;
         }
     }
 }
